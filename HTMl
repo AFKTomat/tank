@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tank in the Desert</title>
+  <link rel="stylesheet" href="xx.css">
+</head>
+<body>
+  <!-- Контейнер для танка -->
+  <div class="tank-container">
+    <!-- Нарисованный танк -->
+    <svg class="tank" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+      <!-- Основное тело танка -->
+      <rect x="30" y="40" width="140" height="30" rx="5" ry="5" fill="#4B5320" />
+      
+      <!-- Башня -->
+      <rect x="70" y="30" width="60" height="20" rx="3" ry="3" fill="#556B2F" />
+      
+      <!-- Дуло -->
+      <rect x="130" y="35" width="50" height="5" fill="#556B2F" />
+      
+      <!-- Гусеницы -->
+      <rect x="20" y="70" width="160" height="15" rx="5" ry="5" fill="#333" />
+      
+      <!-- Колеса -->
+      <circle cx="40" cy="77" r="7" fill="#555" />
+      <circle cx="70" cy="77" r="7" fill="#555" />
+      <circle cx="100" cy="77" r="7" fill="#555" />
+      <circle cx="130" cy="77" r="7" fill="#555" />
+      <circle cx="160" cy="77" r="7" fill="#555" />
+    </svg>
+  </div>
+
+  <!-- Облака -->
+  <div class="clouds">
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+    <div class="cloud cloud-3"></div>
+  </div>
+
+  <!-- Камни -->
+  <div class="rocks">
+    <div class="rock rock-1"></div>
+    <div class="rock rock-2"></div>
+    <div class="rock rock-3"></div>
+  </div>
+
+  <!-- Кактусы -->
+  <div class="cacti">
+    <div class="cactus cactus-1"></div>
+    <div class="cactus cactus-2"></div>
+    <div class="cactus cactus-3"></div>
+  </div>
+
+  <!-- Дорога -->
+  <div class="road"></div>
+
+  <script src="ww.js"></script>
+</body>
+</html>
